@@ -5,7 +5,7 @@ header-img: img/post-bg-desk.jpg
 email: runner1920@163.com
 description: "小菜立志成大牛"
 keyword: "BY, runner1920, 毒药的博客, 软件开发, java, 程序员"
-url: "https://runner1920.github.io"          # your host, for absolute URL
+url: "https://blog.jiangqk.club"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/runner1920/runner1920.github.io.git" # you code repository
 
@@ -61,12 +61,12 @@ kramdown:
 
 # Gitalk
 gitalk:
-  enable: false    #是否开启Gitalk评论
-  clientID: f2c84e7629bb1446c1a4                            #生成的clientID
-  clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
-  repo: qiubaiying.github.io    #仓库名称
-  owner: qiubaiying    #github用户名
-  admin: qiubaiying
+  enable: true    #是否开启Gitalk评论
+  clientID: 78b1985341c4a21a858c                            #生成的clientID
+  clientSecret: 9f59235175856b3850763018169f73565f5c6876    #生成的clientSecret
+  repo: runner1920.github.io    #仓库名称
+  owner: runner1920    #github用户名
+  admin: runner1920
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
@@ -74,7 +74,7 @@ gitalk:
 
 # Analytics settings
 # Baidu Analytics
-ba_track_id: 3aab3406219e8effd79ade79f97a71b8
+ba_track_id: 993f5dec058159e814754f4870898d6d
 
 # Google Analytics
 ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
