@@ -1,14 +1,14 @@
 {
-    "name": "by-blog",
-    "title": "BY Blog",
-    "author": "BY <qiubaiyingios@163.com>",
-    "version": "1.7.0",
-    "homepage": "http://qiubaiying.github.io",
+    "name": "runner1920",
+    "title": "毒药的博客",
+    "author": "毒药<runner1920@163.com>",
+    "version": "1.8.0",
+    "homepage": "https://runner1920.github.io/",
     "repository": {
         "type": "git",
-        "url": "https://github.com/qiubaiying/qiubaiying.github.io"
+        "url": "https://github.com/runner1920/runner1920.github.io"
     },
-    "bugs": "https://github.com/qiubaiying/qiubaiying.github.io/issues",
+    "bugs": "https://github.com/runner1920/runner1920.github.io/issues",
     "devDependencies": {
         "grunt": "~0.4.5",
         "grunt-contrib-less": "~0.11.4",
