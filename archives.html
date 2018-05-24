@@ -21,28 +21,27 @@ header-img: "img/tag-bg.jpg"
 
 <!-- Main Content -->
 <div class="container">
-	<div class="row">
-		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <!--<blockquote class="tag-comments">
-                标签命名规范：
-                    <li>行业观察、职位、公司优先使用中文</li>
-                    <li>外国产品、术语优先使用英文</li>
-            </blockquote>-->
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <!-- 归档列表 -->
 
-            <!-- 标签列表 -->
-			{% for date in site.date %}
-			<div class="one-tag-list">
-			  	<span class="fa fa-tag listing-seperator" id="{{ date[0] }}">
-                    <span class="tag-text">{{ date[0] }}</span>
+             <!-- 归档列表 -->
+           
+            <div class="one-tag-list">
+                <span class="fa fa-calendar-times-o listing-seperator" id="2017">
+                    <span class="tag-text">2017</span>
                 </span>
-				{% for post in date[1] %}
-				  <!-- <li class="listing-item">
-				  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-				  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-				  </li> -->
-				 <div class="post-preview">
-				    <a href="{{ post.url | prepend: site.baseurl }}">
-				        <h2 class="post-title">
+                <ul>
+                  <!-- <li class="listing-item">
+                  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+                  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+                  </li> -->
+                  {% for post.date.year() == '2017'  %}
+                 <li >
+                    {{ post.date.format('MM-DD') }}
+                    <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                    <a href="{{ post.url | prepend: site.baseurl }}" style="color: #0085a1">
+                        <h2 class="post-title">
                             {{ post.title }}
 				        </h2>
 				        {% if post.subtitle %}
@@ -50,14 +49,14 @@ header-img: "img/tag-bg.jpg"
 				            {{ post.subtitle }}
 				        </h3>
 				        {% endif %}
-				    </a>
-				    <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-				</div>
-				<hr>
-				{% endfor %}
-			</div>
-			{% endfor %}
+                    </a>
+                    <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+                </li>
+                {% endfor %}
+                </ul>
+            </div>
 
-		</div>
-	</div>
+
+        </div>
+    </div>
 </div>
