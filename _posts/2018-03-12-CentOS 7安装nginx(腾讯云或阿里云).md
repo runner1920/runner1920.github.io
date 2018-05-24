@@ -1,14 +1,14 @@
 ﻿---
 layout:     post
-title:      CentOS 7安装nginx
-subtitle:   CentOS 7安装nginx，详细步骤
-date:       2018-03-12
+title:      云服务器安装nginx
+subtitle:   centos7安装nginx详细步骤
+date:       2018-01-11
 author:     毒药
-header-img: img/post-bg-ios9-web.jpg
+header-img: img/post-bg-re-vs-ng2.jpg
 catalog: true
 tags:
-	- nginx
 	- 云服务器
+	- nginx
 ---
 
  1. 下载对应当前系统版本的nginx包(package)
