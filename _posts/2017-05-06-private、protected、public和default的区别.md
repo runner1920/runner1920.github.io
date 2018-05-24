@@ -1,6 +1,7 @@
 ﻿---
 layout:     post
 title:      private、protected、public和default的区别
+subtitle:   private、protected、public和default的区别
 date:       2017-05-06
 author:     毒药
 header-img: img/post-bg-ios9-web.jpg

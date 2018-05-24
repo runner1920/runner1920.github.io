@@ -1,6 +1,7 @@
 ﻿---
 layout:     post
 title:      CentOS 7安装nginx
+subtitle:   CentOS 7安装nginx，详细步骤
 date:       2018-03-12
 author:     毒药
 header-img: img/post-bg-ios9-web.jpg
