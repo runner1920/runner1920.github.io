@@ -26,17 +26,17 @@ header-img: "img/tag-bg-o.jpg"
 				{%for post in site.posts %}
 					{% unless post.next %}
 						<div class="one-tag-list">
-							<span class="fa fa-tag listing-seperator" id="{{ post.date | date: '%Y' }}">
-								<span class="tag-text">{{ post.date | date: '%Y' }}</span>
+							<span class="fa fa-tag listing-seperator" id="{{ post.date | date: '%Y-%m' }}">
+								<span class="tag-text">{{ post.date | date: '%Y-%m' }}</span>
 							</span>
 					{% else %}	
-						{% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-						{% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+						{% capture year %}{{ post.date | date: '%Y-%m' }}{% endcapture %}
+						{% capture nyear %}{{ post.next.date | date: '%Y-%m' }}{% endcapture %}
 						{% if year != nyear %}
 							</div>
 							<div class="one-tag-list">
-									<span class="fa fa-tag listing-seperator" id="{{ post.date | date: '%Y' }}">
-										<span class="tag-text">{{ post.date | date: '%Y' }}</span>
+									<span class="fa fa-tag listing-seperator" id="{{ post.date | date: '%Y-%m' }}">
+										<span class="tag-text">{{ post.date | date: '%Y-%m' }}</span>
 									</span>
 						{% endif %}
 					{% endunless %}				
