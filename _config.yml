@@ -5,7 +5,7 @@ header-img: img/post-bg-desk.jpg
 email: runner1920@163.com
 description: "毒药的博客"
 keyword: "BY, runner1920, 毒药的博客, 软件开发, java, 程序员"
-url: "https://blog.jiangqk.club"          # your host, for absolute URL
+url: "https://blog.lemonlc.com"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/runner1920/runner1920.github.io.git" # you code repository
 
@@ -78,7 +78,7 @@ ba_track_id: 3aab3406219e8effd79ade79f97a71b8
 
 # Google Analytics
 ga_track_id: 'UA-119983391-1'            # Format: UA-xxxxxx-xx
-ga_domain: blog.jiangqk.club            # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+ga_domain: blog.lemonlc.com            # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
 
 
@@ -100,7 +100,7 @@ service-worker: true
 friends: [
     {
         title: "个人网站",
-        href: "http://www.jiangqk.club"
+        href: "https://blog.lemonlc.com/"
     },{
         title: "简书",
         href: "https://www.jianshu.com/u/4e26edff15a5"
